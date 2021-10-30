@@ -1,0 +1,43 @@
+{
+  "name": "whe-frontend",
+  "version": "1.0.0",
+  "description": "Wrapped Hive Engine tokens frontend",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "install_cli": "npm install -g ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/fbslo/whe-frontend.git"
+  },
+  "bin": {
+    "frontend": "./bin/index.js"
+  },
+  "keywords": [
+    "hive",
+    "ethereum",
+    "wrapped",
+    "tokens"
+  ],
+  "author": "fbslo",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/fbslo/whe-frontend/issues"
+  },
+  "homepage": "https://github.com/fbslo/whe-frontend#readme",
+  "dependencies": {
+    "axios": "^0.20.0",
+    "body-parser": "^1.19.0",
+    "dotenv": "^8.2.0",
+    "ejs": "^3.1.5",
+    "express": "^4.17.1",
+    "express-rate-limit": "^5.1.3",
+    "node-toobusy": "^0.6.3",
+    "path": "^0.12.7",
+    "pm2": "^4.5.0",
+    "read-last-lines": "^1.7.2",
+    "serve-static": "^1.14.1",
+    "web3": "^1.3.0"
+  }
+}

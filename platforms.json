@@ -1,0 +1,9 @@
+{
+  "platforms": [
+    {
+      "url": "https://url.com",
+      "name": "platform",
+      "fa_icon": "fa-home"
+    }
+  ]
+}
